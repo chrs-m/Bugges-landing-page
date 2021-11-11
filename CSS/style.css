@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.nav {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav ul li {
+  padding: 0 12px 0 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
