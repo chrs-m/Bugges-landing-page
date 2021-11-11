@@ -3,5 +3,3 @@
 # Bugges-Landningssida
 
 Landing page for our made up brewery called Bugges.
-
-#hejhej
