@@ -6,6 +6,10 @@
   font-family: "Sora", sans-serif;
 }
 
+body {
+  background-color: var(--bg-color);
+}
+
 .nav {
   margin: 10px;
   display: flex;
@@ -28,4 +32,16 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.25rem;
+}
+
+.hero_christmas_beer {
+  background-color: var(--yellow);
+}
+
+.hero_top_right {
+  background-color: var(--orange);
+}
+
+.hero_buttom_right {
+  background-color: var(--lt-blue);
 }
