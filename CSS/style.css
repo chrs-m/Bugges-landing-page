@@ -11,7 +11,7 @@ body {
 }
 
 .nav {
-  margin: 10px;
+  background-color: var(--bg-color);
   display: flex;
   justify-content: space-between;
 }
@@ -44,4 +44,28 @@ body {
 
 .hero_buttom_right {
   background-color: var(--lt-blue);
+}
+
+.hops {
+  background-color: var(--lt-blue);
+}
+
+.how-its-made {
+  background-color: var(--pink);
+}
+
+.newsletter {
+  background-color: var(--pink);
+}
+
+.about {
+  background-color: var(--green);
+}
+
+.footer {
+  background-color: var(--lt-green);
+}
+
+.animate-wiggle {
+  animation: wiggle 1.5s ease-in-out infinite;
 }
