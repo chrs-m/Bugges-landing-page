@@ -29,7 +29,7 @@
       </div>
     </header>
     <main class="main sm:pt-10 sm:px-10 lg:pt-16 lg:px-20">
-      <section class="hero gap-8 grid grid-cols-1 lg:grid-cols-2">
+      <section class="hero gap-8 grid grid-cols-1 md:grid-cols-2">
         <div
           style="height: 90vh"
           class="
@@ -210,13 +210,40 @@
           >
             Newsletter
           </h1>
-          <p class="text-center p-10 text-base sm:text-xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eum
-            recusandae repudiandae sunt error libero dolorem quas, molestias
-            fugit facere obcaecati omnis consequuntur. Illo accusantium cum,
-            repellendus rem iusto et numquam odio reiciendis amet provident
-            molestias ipsa distinctio dolores eveniet?
-          </p>
+          <div class="text-center p-10 text-base sm:text-xl">
+            <form class="flex flex-col" action="/">
+              <label for="fname">First name:</label>
+              <input
+                class="opacity-40 rounded-md h-8 w-80 text-sm"
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter your first name.."
+              /><br /><br />
+              <label for="lname">Last name:</label>
+              <input
+                class="opacity-40 rounded-md h-8 text-sm"
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Enter your last name.."
+              /><br /><br />
+              <label for="email">E-mail:</label>
+              <input
+                class="opacity-40 rounded-md h-8 text-sm"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your e-mail.."
+              /><br /><br />
+            </form>
+          </div>
+
+          <img
+            class="cursor-pointer"
+            src="img/Icons/sign_up_btn.svg"
+            alt="Sign up"
+          />
         </div>
         <div
           style="height: 95vh"
