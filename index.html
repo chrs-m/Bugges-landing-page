@@ -17,21 +17,40 @@
   </head>
   <body>
     <header class="navbar">
-      <div
+      <!-- <div
         class="nav fixed w-screen sm:pt-10 sm:px-10 lg:p-4 lg:px-16 z-10 h-20"
       >
         <div class="logo text-4xl ml-5">Bugges brewery</div>
-        <ul class="mr-5">
-          <li class="hover:underline hover:text-gray-400">
-            <a href="/">Products</a>
+        <ul class="nav-menu mr-5">
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">Products</a>
           </li>
-          <li class="hover:underline hover:text-gray-400">
-            <a href="/">About</a>
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">About</a>
           </li>
-          <li class="hover:underline hover:text-gray-400">
-            <a href="/">Contact</a>
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">Contact</a>
           </li>
         </ul>
+      </div> -->
+      <div class="nav w-screen sm:pt-10 sm:px-10 lg:p-4 lg:px-16 z-10 h-20">
+        <div class="logo ml-5 mt-2">Bugges brewery</div>
+        <ul class="nav-menu mr-5">
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">About</a>
+          </li>
+          <li class="nav-item hover:underline hover:text-gray-400">
+            <a href="/" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="hamburger mr-2 mt-2">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
     </header>
     <main class="main sm:pt-10 sm:px-10 lg:pt-16 lg:px-20">
@@ -478,5 +497,6 @@
         </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
