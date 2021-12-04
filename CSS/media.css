@@ -1,9 +1,10 @@
-@media (min-width: 320px) {
-  /* phones */
-}
-
-@media (min-width: 600px) {
-  /* tablets */
+@media only screen and (min-width: 768px) {
+  .hero_top_right {
+    width: 365px;
+  }
+  .about {
+    width: 365px !important;
+  }
 }
 
 @media (min-width: 1025px) {
