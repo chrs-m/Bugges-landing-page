@@ -8,5 +8,7 @@
 }
 
 @media (min-width: 1025px) {
-  /* laptops and above */
+  .about {
+    width: 100% !important;
+  }
 }
