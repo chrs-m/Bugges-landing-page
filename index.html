@@ -13,6 +13,7 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn-tailwindcss.vercel.app/"></script>
     <title>Bugges</title>
   </head>
   <body>
@@ -162,6 +163,7 @@
         >
           <h1
             class="
+              h1-how-its-made
               lg:mt-8
               mt-6
               text-2xl
@@ -174,7 +176,16 @@
           >
             How it's made
           </h1>
-          <p class="text-center p-10 text-base sm:text-xl lg:text-2xl">
+          <p
+            class="
+              text-center
+              p-10
+              text-base
+              sm:text-xl
+              md:text-[14px]
+              lg:text-2xl
+            "
+          >
             As you have probably discovered, we brew beer: a lot of it, and in
             many different places. What started out as a home brewing hobby in a
             school teacher’s kitchen has grown to encompass a large-scale
@@ -303,14 +314,13 @@
                 name="email"
                 placeholder="Enter your e-mail.."
               /><br /><br />
+              <img
+                class="cursor-pointer"
+                src="img/Icons/sign_up_btn.svg"
+                alt="Sign up"
+              />
             </form>
           </div>
-
-          <img
-            class="cursor-pointer"
-            src="img/Icons/sign_up_btn.svg"
-            alt="Sign up"
-          />
         </div>
         <div
           class="
