@@ -2,4 +2,20 @@
 
 # Bugges-Landningssida
 
-Landing page for our made up brewery called Bugges.
+Simple landing page for our made up brewery called Bugges. Small project in order to try Tailwind.
+
+# Installation
+
+- Clone repo
+- Run in localhost
+
+# Technologys used
+
+- HTML
+- CSS
+- Tailwind
+
+# Creators
+
+- Christopher Michael
+- Johanna Jönsson
