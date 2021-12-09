@@ -2,9 +2,6 @@
   .hero_top_right {
     width: 365px;
   }
-  .about {
-    width: 365px !important;
-  }
 }
 
 @media (min-width: 1025px) {
